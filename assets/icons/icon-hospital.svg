@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="100%" height="100%" fill="none">
+  <!-- Hospitals Card Icon: Companionship (Dog and Cat side by side) with health cross -->
+  <g stroke="#17373E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Dog sitting -->
+    <path d="M 18 64 L 18 42 C 18 32, 26 28, 34 30 C 40 32, 44 38, 44 48 L 44 64" fill="#E8F4F1"/>
+    <!-- Dog snout & head -->
+    <path d="M 34 30 C 37 24, 43 23, 47 25 C 49 27, 47 31, 41 33" fill="#FFFFFF"/>
+    <circle cx="46" cy="25" r="1.3" fill="#17373E"/>
+    <circle cx="38" cy="26" r="1.3" fill="#17373E"/>
+    <!-- Dog ear -->
+    <path d="M 31 28 C 28 22, 24 23, 23 27 C 23 32, 28 35, 30 33 Z" fill="#8DC63F" fill-opacity="0.4"/>
+    <!-- Dog paws -->
+    <path d="M 15 64 Q 20 62, 25 64"/>
+    <path d="M 32 64 Q 37 62, 42 64"/>
+
+    <!-- Cat sitting next to dog -->
+    <g transform="translate(36, 32)">
+      <path d="M 8 32 L 8 18 C 8 12, 14 8, 20 10 C 26 12, 28 17, 28 32 Z" fill="#FFFFFF"/>
+      <!-- Cat ears -->
+      <path d="M 11 10 L 10 3 L 15 7" fill="#8DC63F" fill-opacity="0.3"/>
+      <path d="M 21 8 L 26 3 L 26 11" fill="#8DC63F" fill-opacity="0.3"/>
+      <!-- Cat eyes -->
+      <circle cx="16" cy="13" r="1.2" fill="#17373E"/>
+      <circle cx="23" cy="14" r="1.2" fill="#17373E"/>
+      <!-- Whiskers -->
+      <line x1="12" y1="16" x2="6" y2="15"/>
+      <line x1="12" y1="18" x2="6" y2="19"/>
+      <line x1="24" y1="17" x2="30" y2="16"/>
+      <line x1="24" y1="19" x2="30" y2="20"/>
+      <!-- Cat tail -->
+      <path d="M 28 28 C 34 26, 36 20, 34 16" stroke-width="2"/>
+    </g>
+
+    <!-- Small Medical Health Cross Accent -->
+    <g transform="translate(56, 12)">
+      <circle cx="8" cy="8" r="9" fill="#8DC63F" stroke="none"/>
+      <path d="M 8 4 L 8 12 M 4 8 L 12 8" stroke="#FFFFFF" stroke-width="2.2"/>
+    </g>
+  </g>
+</svg>

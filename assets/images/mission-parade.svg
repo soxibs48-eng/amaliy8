@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 380" width="100%" height="100%" fill="none">
+  <!-- Mission Parade Illustration: Vet holding banner marching with big cat, dog, bird -->
+  <g stroke="#17373E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Ground marching dashed line -->
+    <path d="M 30 350 L 430 350" stroke-dasharray="10 8" stroke="#8DC63F" stroke-width="2"/>
+
+    <!-- Bird leading the parade -->
+    <g transform="translate(380, 110)">
+      <path d="M 0 10 Q 12 0, 24 10 Q 36 0, 48 10 Q 32 8, 24 18 Q 16 8, 0 10 Z" fill="#8DC63F" fill-opacity="0.3"/>
+      <circle cx="16" cy="7" r="1.5" fill="#17373E"/>
+      <path d="M 12 14 Q 8 22, 6 28"/>
+    </g>
+
+    <!-- Placard / Banner held by vet -->
+    <g transform="translate(290, 40)">
+      <line x1="20" y1="95" x2="20" y2="230" stroke="#17373E" stroke-width="3"/>
+      <!-- Sign board -->
+      <rect x="-35" y="0" width="110" height="95" rx="8" fill="#FFFFFF" stroke="#17373E" stroke-width="2.5"/>
+      <!-- Text / Symbol on sign -->
+      <circle cx="20" cy="35" r="18" fill="#E8F4F1" stroke="#8DC63F" stroke-width="2"/>
+      <path d="M 15 35 L 25 35 M 20 30 L 20 40" stroke="#8DC63F" stroke-width="2.5"/>
+      <path d="M -15 68 L 55 68" stroke="#17373E" stroke-width="2.5"/>
+      <path d="M -5 80 L 45 80" stroke="#8DC63F" stroke-width="2"/>
+    </g>
+
+    <!-- Vet Marching (Center-Right) -->
+    <g id="parade_vet" transform="translate(260, 140)">
+      <!-- Marching Legs -->
+      <path d="M 40 130 L 20 170 L 10 205 L 25 208"/>
+      <path d="M 55 130 L 75 165 L 90 205 L 105 208"/>
+
+      <!-- Trousers -->
+      <path d="M 30 90 L 65 90 L 65 130 C 60 135, 45 135, 30 130 Z" fill="#E2EEE7"/>
+      <!-- Body / Scrub Top -->
+      <path d="M 28 40 C 25 60, 28 85, 65 85 C 72 70, 70 50, 65 40 Z" fill="#FFFFFF"/>
+      
+      <!-- Arms holding sign pole -->
+      <path d="M 60 45 C 65 65, 55 80, 50 90"/>
+      <circle cx="50" cy="90" r="3.5" fill="#8DC63F"/>
+
+      <!-- Head & Cap -->
+      <circle cx="52" cy="18" r="14" fill="#FFFFFF"/>
+      <path d="M 42 16 C 40 8, 52 4, 62 8 C 66 12, 66 18, 62 24" fill="#8DC63F" fill-opacity="0.4"/>
+      <circle cx="58" cy="18" r="1.5" fill="#17373E"/>
+      <path d="M 60 22 Q 64 24, 62 26"/>
+    </g>
+
+    <!-- Small energetic Terrier Dog marching behind vet -->
+    <g id="terrier" transform="translate(340, 235)">
+      <!-- Legs marching high -->
+      <line x1="18" y1="85" x2="10" y2="115"/>
+      <line x1="28" y1="85" x2="35" y2="110"/>
+      <line x1="52" y1="85" x2="48" y2="115"/>
+      <line x1="62" y1="85" x2="70" y2="110"/>
+      
+      <!-- Body -->
+      <path d="M 12 75 C 10 55, 30 50, 65 52 C 75 54, 78 70, 72 80 C 60 85, 20 85, 12 75 Z" fill="#FFFFFF"/>
+      <!-- Head -->
+      <path d="M 62 52 C 68 40, 78 38, 86 44 C 92 48, 92 60, 80 62 Z" fill="#FFFFFF"/>
+      <!-- Ears perked up -->
+      <path d="M 72 38 L 74 25 L 80 34" fill="#8DC63F" fill-opacity="0.4"/>
+      <path d="M 82 36 L 86 26 L 90 38" fill="#8DC63F" fill-opacity="0.4"/>
+      <circle cx="84" cy="48" r="1.5" fill="#17373E"/>
+      <circle cx="92" cy="50" r="2" fill="#8DC63F"/>
+      <!-- Tail held high with joy -->
+      <path d="M 12 65 C 2 50, 5 35, 12 28" stroke-width="3"/>
+    </g>
+
+    <!-- The Giant Majestic Cat Leading on the Left -->
+    <g id="giant_cat" transform="translate(60, 110)">
+      <!-- Back Legs -->
+      <path d="M 45 160 L 35 200 L 25 240 L 40 240"/>
+      <path d="M 65 160 L 70 200 L 65 240 L 78 240"/>
+      <!-- Front Legs -->
+      <path d="M 135 160 L 130 200 L 125 240 L 140 240"/>
+      <path d="M 155 160 L 165 200 L 168 240 L 180 240"/>
+
+      <!-- Big Cat Body with whimsical stripes -->
+      <path d="M 35 150 C 30 100, 70 85, 130 90 C 160 95, 175 120, 170 165 C 160 175, 45 175, 35 150 Z" fill="#FFFFFF"/>
+      
+      <!-- Whimsical tiger/tabby stripes -->
+      <path d="M 65 92 Q 68 115, 62 135" stroke="#8DC63F" stroke-width="2.5"/>
+      <path d="M 90 92 Q 94 118, 88 140" stroke="#8DC63F" stroke-width="2.5"/>
+      <path d="M 115 94 Q 120 120, 114 142" stroke="#8DC63F" stroke-width="2.5"/>
+      <path d="M 140 102 Q 145 125, 140 145" stroke="#8DC63F" stroke-width="2.5"/>
+
+      <!-- Giant Cat Head -->
+      <circle cx="165" cy="80" r="28" fill="#FFFFFF"/>
+      <!-- Cat ears -->
+      <path d="M 148 62 L 142 38 L 160 52" fill="#8DC63F" fill-opacity="0.3"/>
+      <path d="M 172 54 L 188 40 L 182 64" fill="#8DC63F" fill-opacity="0.3"/>
+      <!-- Cat eyes looking curious and happy -->
+      <ellipse cx="158" cy="78" rx="2.5" ry="3.5" fill="#17373E"/>
+      <ellipse cx="176" cy="80" rx="2.5" ry="3.5" fill="#17373E"/>
+      <!-- Nose & mouth -->
+      <path d="M 166 86 L 168 86 M 167 86 L 167 92 M 167 92 Q 162 96, 158 92 M 167 92 Q 172 96, 176 92"/>
+      <!-- Whiskers -->
+      <line x1="145" y1="84" x2="120" y2="80"/>
+      <line x1="145" y1="90" x2="118" y2="92"/>
+      <line x1="185" y1="86" x2="210" y2="82"/>
+      <line x1="185" y1="92" x2="212" y2="95"/>
+
+      <!-- Giant Cat Tail curled gracefully high in the air -->
+      <path d="M 35 130 C 20 80, 30 30, 48 15 C 60 5, 68 20, 52 35 C 40 45, 38 85, 42 120" stroke-width="3.5" fill="none"/>
+    </g>
+
+    <!-- Little Puppy sitting happily on the giant cat's back! -->
+    <g id="puppy_on_cat" transform="translate(130, 115)">
+      <path d="M 5 60 C 2 45, 12 35, 26 38 C 36 40, 40 50, 38 60 Z" fill="#FFFFFF"/>
+      <!-- Puppy head -->
+      <circle cx="28" cy="30" r="12" fill="#FFFFFF"/>
+      <!-- Floppy ears -->
+      <path d="M 20 25 C 14 26, 12 35, 16 38" fill="#8DC63F" fill-opacity="0.5"/>
+      <path d="M 34 26 C 38 27, 42 36, 38 38" fill="#8DC63F" fill-opacity="0.5"/>
+      <circle cx="26" cy="28" r="1.5" fill="#17373E"/>
+      <circle cx="34" cy="29" r="1.5" fill="#17373E"/>
+      <!-- Happy tongue sticking out -->
+      <path d="M 30 36 Q 31 42, 34 38" stroke="#8DC63F" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

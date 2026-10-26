@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%" fill="none">
+  <!-- Step 2: We partner with the best workplaces - Person peering through telescope -->
+  <!-- Soft circular backdrop -->
+  <circle cx="120" cy="120" r="105" fill="#F4F8F5"/>
+  <circle cx="120" cy="120" r="104" stroke="#D7E6DD" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <g stroke="#17373E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Starry discovery accents in distance -->
+    <g stroke="#8DC63F" stroke-width="2">
+      <path d="M 45 45 L 45 55 M 40 50 L 50 50"/>
+      <path d="M 70 30 L 70 36 M 67 33 L 73 33"/>
+      <circle cx="55" cy="70" r="2.5" fill="#8DC63F" stroke="none"/>
+      <circle cx="90" cy="40" r="2" fill="#8DC63F" stroke="none"/>
+    </g>
+
+    <!-- Tripod -->
+    <line x1="105" y1="125" x2="65" y2="215"/>
+    <line x1="105" y1="125" x2="100" y2="215"/>
+    <line x1="105" y1="125" x2="140" y2="215"/>
+    <!-- Tripod mount -->
+    <rect x="98" y="118" width="14" height="12" rx="3" fill="#8DC63F" stroke="#17373E"/>
+
+    <!-- Telescope Tube tilted up to upper-left -->
+    <g transform="rotate(-30 105 120)">
+      <!-- Main body -->
+      <polygon points="50,112 140,114 140,126 50,128" fill="#FFFFFF" stroke="#17373E" stroke-width="2.5"/>
+      <!-- Lens hood -->
+      <rect x="42" y="110" width="12" height="20" rx="2" fill="#8DC63F" stroke="#17373E" stroke-width="2.5"/>
+      <!-- Eyepiece -->
+      <rect x="140" y="116" width="14" height="8" rx="2" fill="#E2EEE7" stroke="#17373E" stroke-width="2"/>
+      <line x1="154" y1="114" x2="154" y2="126" stroke-width="2.5"/>
+      <!-- Detail stripes -->
+      <line x1="90" y1="113" x2="90" y2="127" stroke="#8DC63F" stroke-width="2"/>
+    </g>
+
+    <!-- Person looking into eyepiece -->
+    <g id="observer">
+      <!-- Legs -->
+      <line x1="172" y1="170" x2="168" y2="215"/>
+      <line x1="184" y1="170" x2="190" y2="215"/>
+      <!-- Shoes -->
+      <path d="M 162 215 L 174 215" stroke-width="3"/>
+      <path d="M 186 215 L 198 215" stroke-width="3"/>
+
+      <!-- Trousers & Torso leaning forward slightly -->
+      <path d="M 160 135 C 160 160, 165 175, 172 175 C 178 175, 185 160, 185 135 Z" fill="#E2EEE7"/>
+      <!-- Upper Body / Coat -->
+      <path d="M 155 105 C 152 120, 155 140, 182 140 C 188 125, 185 110, 178 105 Z" fill="#FFFFFF"/>
+      
+      <!-- Arm raised holding telescope -->
+      <path d="M 168 112 C 155 116, 145 112, 138 108"/>
+      <path d="M 138 108 C 134 105, 133 112, 137 114"/>
+
+      <!-- Head leaning into eyepiece -->
+      <circle cx="166" cy="88" r="13" fill="#FFFFFF"/>
+      <!-- Hair / Ponytail -->
+      <path d="M 166 75 C 176 75, 180 84, 178 92 C 174 88, 170 82, 164 80" fill="#8DC63F" fill-opacity="0.35"/>
+      <path d="M 178 88 C 188 88, 192 94, 190 98" stroke-width="2"/>
+      <!-- Eye looking into lens -->
+      <circle cx="158" cy="88" r="1.5" fill="#17373E"/>
+      <path d="M 154 94 Q 158 96, 156 98"/>
+    </g>
+  </g>
+</svg>

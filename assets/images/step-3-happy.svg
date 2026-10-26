@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%" fill="none">
+  <!-- Step 3: Happy vets. Happy hospitals. Better medicine - Vet hugging big joyful dog -->
+  <!-- Soft circular backdrop -->
+  <circle cx="120" cy="120" r="105" fill="#F4F8F5"/>
+  <circle cx="120" cy="120" r="104" stroke="#D7E6DD" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <g stroke="#17373E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Heart & Joy Sparkles -->
+    <g transform="translate(145, 45)">
+      <path d="M 12 5 C 9 0, 0 1, 0 8 C 0 14, 12 21, 12 21 C 12 21, 24 14, 24 8 C 24 1, 15 0, 12 5 Z" fill="#8DC63F" stroke="none"/>
+    </g>
+    <circle cx="95" cy="50" r="2.5" fill="#8DC63F" stroke="none"/>
+    <circle cx="180" cy="90" r="3" fill="#8DC63F" stroke="none"/>
+
+    <!-- Vet on Left, Standing & Embracing -->
+    <g id="vet_hug">
+      <!-- Legs -->
+      <line x1="90" y1="165" x2="88" y2="215"/>
+      <line x1="102" y1="165" x2="104" y2="215"/>
+      <path d="M 82 215 L 94 215" stroke-width="3"/>
+      <path d="M 100 215 L 112 215" stroke-width="3"/>
+
+      <!-- Trousers & Coat -->
+      <path d="M 82 120 C 80 145, 84 170, 92 170 C 100 170, 106 145, 106 120 Z" fill="#E2EEE7"/>
+      <!-- Upper Body / Vet Coat -->
+      <path d="M 80 85 C 75 105, 78 125, 108 125 C 114 110, 110 90, 102 85 Z" fill="#FFFFFF"/>
+
+      <!-- Arms wrapping around dog neck/shoulders -->
+      <path d="M 98 95 C 115 98, 135 105, 145 118"/>
+      <path d="M 145 118 C 147 122, 140 126, 134 122"/>
+
+      <!-- Head leaning into dog -->
+      <circle cx="96" cy="68" r="14" fill="#FFFFFF"/>
+      <!-- Hair -->
+      <path d="M 86 65 C 84 55, 96 52, 105 55 C 112 58, 112 66, 108 72 C 102 68, 96 64, 88 64" fill="#8DC63F" fill-opacity="0.35"/>
+      <!-- Happy closed smiling eye -->
+      <path d="M 98 68 Q 102 65, 106 68" stroke-width="2"/>
+      <path d="M 100 73 Q 104 77, 108 74"/>
+    </g>
+
+    <!-- Big Happy Dog Standing on Hind Legs Embracing Vet -->
+    <g id="dog_embrace">
+      <!-- Hind Legs -->
+      <path d="M 140 160 C 145 180, 148 200, 150 215"/>
+      <path d="M 142 215 L 156 215" stroke-width="3"/>
+
+      <!-- Dog Body -->
+      <path d="M 115 110 C 125 125, 135 145, 140 165 C 150 165, 160 145, 155 120 C 150 95, 135 85, 125 85 Z" fill="#FFFFFF"/>
+      
+      <!-- Paws resting on Vet's shoulders -->
+      <path d="M 125 90 C 115 88, 105 85, 98 88"/>
+      <circle cx="96" cy="88" r="3.5" fill="#8DC63F" stroke="#17373E" stroke-width="1.5"/>
+
+      <!-- Dog Head resting warmly over Vet's shoulder -->
+      <path d="M 125 85 C 135 75, 150 72, 158 82 C 162 90, 155 102, 142 102" fill="#FFFFFF"/>
+      <!-- Snout -->
+      <path d="M 154 78 C 168 76, 175 80, 172 86 C 166 90, 155 88, 148 88"/>
+      <circle cx="172" cy="82" r="2.5" fill="#17373E"/>
+      <!-- Dog Ear flopped back in happiness -->
+      <path d="M 142 75 C 142 62, 154 62, 155 72 Z" fill="#8DC63F" fill-opacity="0.4"/>
+      <!-- Dog Happy Smile & Eye -->
+      <path d="M 148 78 Q 152 75, 155 78" stroke-width="2"/>
+      <path d="M 158 87 Q 164 92, 160 95"/>
+
+      <!-- Wagging tail -->
+      <path d="M 155 155 C 175 150, 190 135, 188 120 C 185 112, 178 120, 172 135" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

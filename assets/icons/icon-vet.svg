@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="100%" height="100%" fill="none">
+  <!-- Veterinarians Card Icon: Doctor holding pet with stethoscope -->
+  <g stroke="#17373E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Doctor Head -->
+    <circle cx="36" cy="22" r="11" fill="#E8F4F1"/>
+    <!-- Hair -->
+    <path d="M 28 20 C 27 13, 33 11, 40 12 C 46 13, 47 18, 47 22" fill="#8DC63F" fill-opacity="0.3"/>
+    <circle cx="38" cy="23" r="1.5" fill="#17373E"/>
+    <path d="M 40 26 Q 43 28, 41 29"/>
+
+    <!-- Doctor Shoulders / Scrubs -->
+    <path d="M 22 52 C 22 40, 28 35, 36 35 C 44 35, 52 40, 54 52" fill="#E8F4F1"/>
+    <!-- Stethoscope -->
+    <path d="M 31 36 C 30 42, 33 46, 37 47 C 41 46, 44 42, 43 36" stroke="#8DC63F" stroke-width="2.5"/>
+    <circle cx="37" cy="50" r="2.5" fill="#8DC63F"/>
+
+    <!-- Arms cradling puppy -->
+    <path d="M 23 52 C 26 58, 38 60, 48 56"/>
+    
+    <!-- Puppy being held -->
+    <g transform="translate(32, 38)">
+      <path d="M 8 16 C 4 12, 6 4, 14 5 C 20 6, 22 13, 20 18 C 17 22, 10 21, 8 16 Z" fill="#FFFFFF"/>
+      <!-- Floppy Ear -->
+      <path d="M 7 8 C 3 9, 3 14, 6 15" fill="#8DC63F" fill-opacity="0.4"/>
+      <!-- Eye & nose -->
+      <circle cx="15" cy="9" r="1.2" fill="#17373E"/>
+      <circle cx="19" cy="11" r="1.2" fill="#8DC63F"/>
+      <!-- Paw resting on vet arm -->
+      <path d="M 10 20 C 8 22, 12 24, 15 22"/>
+    </g>
+  </g>
+</svg>

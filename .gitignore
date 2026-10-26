@@ -1,0 +1,18 @@
+# Node & OS
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Scratch & temporary inspection files
+embed.html
+slice_*.png
+indevets_thumb.png
+slice_thumb.py
+parse_armor.py
+
+# Vercel
+.vercel

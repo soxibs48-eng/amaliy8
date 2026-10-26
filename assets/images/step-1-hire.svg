@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%" fill="none">
+  <!-- Step 1: We hire great vets - Doctor marching carrying "I" shield badge -->
+  <!-- Soft circular backdrop -->
+  <circle cx="120" cy="120" r="105" fill="#F4F8F5"/>
+  <circle cx="120" cy="120" r="104" stroke="#D7E6DD" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <g stroke="#17373E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Walking Legs -->
+    <!-- Back Leg -->
+    <path d="M 125 150 L 145 185 L 160 195"/>
+    <path d="M 160 195 L 175 195" stroke-width="3"/>
+    <!-- Front Leg moving forward -->
+    <path d="M 105 150 L 85 185 L 70 195"/>
+    <path d="M 70 195 L 55 195" stroke-width="3"/>
+
+    <!-- Trousers & Coat -->
+    <path d="M 100 110 L 135 110 L 135 150 C 130 155, 110 155, 100 150 Z" fill="#E2EEE7"/>
+    <line x1="117" y1="110" x2="117" y2="150" stroke-dasharray="4 4"/>
+
+    <!-- Head & Cap / Hair -->
+    <circle cx="132" cy="78" r="14" fill="#FFFFFF"/>
+    <path d="M 122 75 C 122 66, 134 62, 142 66 C 148 68, 148 76, 144 80" fill="#8DC63F" fill-opacity="0.35"/>
+    <circle cx="138" cy="78" r="1.5" fill="#17373E"/>
+    <path d="M 140 83 Q 144 85, 141 87"/>
+
+    <!-- Arms holding circular shield -->
+    <path d="M 130 118 C 125 130, 110 135, 95 130"/>
+    <path d="M 115 115 C 105 125, 90 128, 80 125"/>
+
+    <!-- The "I" Shield / Medal -->
+    <g transform="translate(68, 88)">
+      <circle cx="36" cy="36" r="34" fill="#FFFFFF" stroke="#8DC63F" stroke-width="3"/>
+      <circle cx="36" cy="36" r="28" fill="#F4F8F5" stroke="#17373E" stroke-width="1.8"/>
+      <!-- IndeVets "I" monogram -->
+      <path d="M 28 20 L 44 20 M 36 20 L 36 52 M 28 52 L 44 52" stroke="#17373E" stroke-width="4.5"/>
+      <circle cx="36" cy="12" r="3" fill="#8DC63F" stroke="none"/>
+      <!-- Radiating sparkle dots -->
+      <circle cx="6" cy="15" r="2" fill="#8DC63F" stroke="none"/>
+      <circle cx="66" cy="18" r="2.5" fill="#8DC63F" stroke="none"/>
+      <circle cx="64" cy="55" r="2" fill="#8DC63F" stroke="none"/>
+    </g>
+  </g>
+</svg>
